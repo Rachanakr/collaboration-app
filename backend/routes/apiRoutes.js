@@ -3,7 +3,7 @@ const { sendNotification, getNotifications } = require('../controllers/notificat
 const router = express.Router();
 
 router.post('/notify', sendNotification);
-router.get('/notifications', getNotifications);
+// router.get('/notifications', getNotifications);
 
 module.exports = router;
  
